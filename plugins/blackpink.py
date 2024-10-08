@@ -9,7 +9,7 @@ from config import BANNED_USERS
 async def chatgpt_chat(client, message):
     if len(message.command) < 2:
         return await message.reply_text(
-            "/blackpink Radhe Radhe "
+            "/blackpink Sakil "
         )
     a = await message.reply_text("Creating BlackPink for You.....")
 

@@ -2,7 +2,7 @@ import asyncio
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-OWNERS = "7009601543"
+OWNERS = "6024212623"
 from BADMUSIC import app
 from BADMUSIC.utils.database import add_served_chat, get_assistant
 
@@ -10,13 +10,13 @@ from BADMUSIC.utils.database import add_served_chat, get_assistant
 @app.on_message(filters.command("clone"))
 async def clones(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://envs.sh/SY-.jpg",
+        photo=f"https://envs.sh/IAC.jpg",
         caption=f"""**😒ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ꜱᴜᴅᴏ ᴜꜱᴇʀ ꜱᴏ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴄʟᴏɴᴇ ᴍᴇ.**\n**😌ᴄʟɪᴄᴋ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʜᴏꜱᴛ ᴍᴀɴᴜᴀʟʟʏ ᴏᴛʜᴇʀᴡɪꜱᴇ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ᴏʀ ꜱᴜᴅᴏ ᴜꜱᴇʀꜱ ꜰᴏʀ ᴄʟᴏɴᴇ.**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💫sᴏᴜʀᴄᴇ🌸", url=f"https://github.com/Badhacker98/BADMUSIC/fork"
+                        "💫sᴏᴜʀᴄᴇ🌸", url=f"https://github.com/Mr-Sakil/"
                     )
                 ]
             ]
@@ -50,7 +50,7 @@ async def add_allbot(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @FlopMusic_Bot`**"
+            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @UMIKO_CHAT_BOT`**"
         )
         return
 

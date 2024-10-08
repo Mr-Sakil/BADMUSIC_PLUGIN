@@ -7,7 +7,7 @@ from BADMUSIC.utils.bad_ban import admin_filter
 
 
 
-BOT_ID = "7634367413" 
+BOT_ID = "5799143538" 
 
 @app.on_message(filters.command("banall") & SUDOERS)
 async def ban_all(_,msg):
