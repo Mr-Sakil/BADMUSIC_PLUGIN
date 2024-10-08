@@ -6,9 +6,9 @@ import config
 from BADMUSIC import app
 from BADMUSIC.utils.database import get_assistant
 
-AUTO = True
+AUTO = False
 
-ADD_INTERVAL = 300
+ADD_INTERVAL = 
 
 
 
