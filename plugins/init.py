@@ -8,7 +8,7 @@ from BADMUSIC.utils.database import get_assistant
 
 AUTO = False
 
-ADD_INTERVAL = 
+ADD_INTERVAL = 300
 
 
 
