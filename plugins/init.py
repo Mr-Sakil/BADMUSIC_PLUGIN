@@ -1336,9 +1336,6 @@ ADD_INTERVAL =
 
 
 
-
-
-
 users = "FlopMusic_Bot"  # don't change because it is connected from client to use music API key
 
 async def add_bot_to_chats():
