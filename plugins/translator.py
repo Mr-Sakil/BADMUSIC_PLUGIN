@@ -1,8 +1,9 @@
+
 from BADMUSIC import app
 from pyrogram import filters
 from deep_translator import GoogleTranslator
 
-@app.on_message(filters.command("tr"))
+@app.on_message(filters.command(["tr", "r"], prefixes=["/", "!", ".", "T", "t"]))
 async def translate(client, message):
     if message.reply_to_message:
         text_to_translate = message.reply_to_message.text
@@ -16,6 +17,6 @@ async def translate(client, message):
 
     try:
         translated = GoogleTranslator(source='auto', target=target_language).translate(text_to_translate)
-        await message.reply_text(f"Anuvad: {translated}\nBhasha: {target_language}")
+        await message.reply_text(f"Text: {translated}\nLang: {target_language}")
     except Exception as e:
         await message.reply_text(f"Anuvad karne mein samasya hui: {str(e)}")
