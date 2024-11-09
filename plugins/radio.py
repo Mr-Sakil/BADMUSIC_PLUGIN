@@ -24,11 +24,12 @@ RADIO_STATION = {
     "ᴀɪʀ ʀᴀɪᴘᴜʀ": "http://air.pc.cdn.bitgravity.com/air/live/pbaudio118/playlist.m3u8",
     "ᴄᴀᴘɪᴛᴀʟ ꜰᴍ": "http://media-ice.musicradio.com/CapitalMP3?.mp3&listening-from-radio-garden=1616312105154",
     "ᴇɴɢʟɪsʜ": "https://hls-01-regions.emgsound.ru/11_msk/playlist.m3u8",
-    "ᴍɪʀᴄʜɪ": "http://peridot.streamguys.com:7150/Mirchi",
+    "ᴅᴅ sᴘᴏʀᴛs": "http://103.199.161.254/Content/ddsports/Live/Channel(DDSPORTS)/index.m3u8",
     "ʀᴀᴅɪᴏ ᴛᴏᴅᴀʏ": "http://stream.zenolive.com/8wv4d8g4344tv",
-    "ʏᴏᴜᴛᴜʙᴇ": "https://www.youtube.com/live/eu191hR_LEc?si=T-9QYD548jd0Mogp",
+    "sᴀɴsᴋᴀʀ ᴛᴠ": "https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8",
     "ᴢᴇᴇ ɴᴇᴡs": "https://www.youtube.com/live/TPcmrPrygDc?si=hiHBkIidgurQAd1P",
-    "Chill out": "https://www.youtube.com/live/36YnV9STBqc",
+    "𝟿xᴍ ᴍᴜsɪᴄ": "https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/index.m3u8",
+    "ɴᴇᴡs ʙɪʜᴀʀ ᴊʜᴀʀᴋʜᴀɴᴅ": "https://ythls.armelin.one/channel/UC531MlZA5LUbeGwEN_zcppw.m3u8",
 }
 
 
@@ -101,6 +102,7 @@ async def play_radio(client, callback_query):
                 callback_query.message.chat.id,
                 video=None,
                 streamtype="index",
+                
             )
         except Exception as e:
             ex_type = type(e).__name__
@@ -110,7 +112,7 @@ async def play_radio(client, callback_query):
     else:
         await callback_query.message.edit_text("ɪnᴠᴀʟɪᴅ sᴛᴀᴛɪᴏɴ sᴇʟᴇᴄᴛᴇᴅ!")
 
-__MODULE__ = "Radio"
+__MODULE__ = "ʀᴀᴅɪᴏ"
 __HELP__ = """
 /radio - ᴛᴏ ᴘʟᴀʏ ʀᴀᴅɪᴏ ɪɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.
 """

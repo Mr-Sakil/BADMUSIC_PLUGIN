@@ -47,14 +47,14 @@ async def check_bots_command(client, message):
             await message.reply_text(f"{response}⏲️ ʟᴀsᴛ ᴄʜᴇᴄᴋ: {last_checked_time}")
         else:
             await message.reply_text(
-                "ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ.\n\nᴘʟᴇᴀsᴇ ᴜsᴇ /botschk Bot_Username\n\nʟɪᴋᴇ :- `/botschk @FlopMusic_Bot`"
+                "ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ.\n\nᴘʟᴇᴀsᴇ ᴜsᴇ /botschk Bot_Username\n\nʟɪᴋᴇ :- `/botschk @UMIKO_CHAT_BOT`"
             )
     except Exception as e:
         await message.reply_text(f"An error occurred: {e}")
         print(f"Error occurred during /botschk command: {e}")
 
 
-__MODULE__ = "Bᴏᴛsᴄʜᴋ"
+__MODULE__ = "ʙᴏᴛsᴄʜᴋ"
 __HELP__ = """
 ## Bᴏᴛs Cʜᴇᴄᴋ Cᴏᴍᴍᴀɴᴅ
 
